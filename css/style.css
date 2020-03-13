@@ -1249,6 +1249,10 @@ h6 {
   color: #535074;
 }
 
+#footer .footer-top .footer-links a {
+  color: #555555;
+}
+
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -1267,6 +1271,12 @@ h6 {
 #footer .footer-top .social-links a:hover {
   background: #0a98c0;
   color: #fff;
+}
+
+#footer .footer-top .fiverr img {
+  height: 32px;
+  width: auto;
+  margin-top: 5px;
 }
 
 #footer .footer-top h4 {
@@ -1563,7 +1573,8 @@ h6 {
 }
 
 @media (max-width: 574px) {
-  #footer .footer-top .social-links a {
+  #footer .footer-top .fiverr {
     margin-bottom: 25px;
+    display: block;
   }
 }
