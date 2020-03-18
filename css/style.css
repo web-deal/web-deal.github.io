@@ -1249,6 +1249,10 @@ h6 {
   color: #535074;
 }
 
+#footer .footer-top .footer-info hr {
+  margin: 5px 0;
+}
+
 #footer .footer-top .footer-links a {
   color: #555555;
 }
